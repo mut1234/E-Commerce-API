@@ -53,8 +53,8 @@ Username: Vistor
 Password: Vistor@123
 
 project can be improved :
-add service 
-clean architecture 
-repository patern + unit of work
-meditor
+add service ,
+clean architecture ,
+repository patern + unit of work,
+meditor,
 auto mapper
