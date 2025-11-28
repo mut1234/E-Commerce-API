@@ -1,5 +1,6 @@
 📋 Project Overview
 Simple E-Commerce API built with ASP.NET Core featuring user authentication, product management, and invoice generation.
+
 🚀 Features
 
 ✅ JWT Authentication , User Registration & Login,Role-based Authorization (Admin/Visitor), Product CRUD with Soft Delete,Paginated Product Listing, Invoice Generation,Sql Server Database with Seeded Data
