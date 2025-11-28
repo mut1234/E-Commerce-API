@@ -42,6 +42,9 @@ bashdotnet run
 Access Swagger UI
 Open browser and navigate to: https://localhost:7138 
 
+postman exported path file :
+E-Commerce API/PostmanExportFile
+
 🔐 Default Credentials
 
 Admin Account
