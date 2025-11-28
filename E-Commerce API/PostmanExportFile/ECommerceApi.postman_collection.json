@@ -28,7 +28,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"nameAr\": \"هاتف اس 24 الترا\",\r\n  \"nameEn\": \"s24 ultra\",\r\n  \"price\": 850\r\n}",
+									"raw": "{\r\n  \"nameAr\": \"هاتف اس 25 الترا\",\r\n  \"nameEn\": \"s25 ultra\",\r\n  \"price\": 1000\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -65,7 +65,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"nameAr\": \"هاتف اس 24 الترا\",\r\n  \"nameEn\": \"s24 ultra\",\r\n  \"price\": 750\r\n}",
+									"raw": "{\r\n  \"nameAr\": \"هاتف اس 25 الترا\",\r\n  \"nameEn\": \"s25 ultra\",\r\n  \"price\": 950\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -73,14 +73,14 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseURL}}/api/Products/5",
+									"raw": "{{baseURL}}/api/Products/7",
 									"host": [
 										"{{baseURL}}"
 									],
 									"path": [
 										"api",
 										"Products",
-										"5"
+										"7"
 									]
 								},
 								"description": "Generated from cURL: curl -X 'PUT' \\\r\n  'https://localhost:7138/api/Products/update-product/1' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"nameAr\": \"هاتف اس 24 الترا\",\r\n  \"nameEn\": \"s24 ultra\",\r\n  \"price\": 750\r\n}'"
@@ -108,14 +108,14 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseURL}}/api/Products/5",
+									"raw": "{{baseURL}}/api/Products/7",
 									"host": [
 										"{{baseURL}}"
 									],
 									"path": [
 										"api",
 										"Products",
-										"5"
+										"7"
 									]
 								},
 								"description": "Generated from cURL: curl -X 'DELETE' \\\r\n  'https://localhost:7138/api/Products/delete-product/1' \\\r\n  -H 'accept: */*'"
@@ -242,7 +242,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"username\": \"Visitor1\",\r\n  \"password\": \"Visitor1@123\",\r\n  \"fullName\": \"Visitor test\",\r\n  \"email\": \"Visitor1@gmail.com\"\r\n}",
+							"raw": "{\r\n  \"username\": \"Visitor2\",\r\n  \"password\": \"Visitor2@123\",\r\n  \"fullName\": \"Visitor test\",\r\n  \"email\": \"Visitor2@gmail.com\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
