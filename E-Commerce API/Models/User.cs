@@ -15,5 +15,7 @@ namespace E_Commerce_API.Models
         public string Role { get; set; }
         public bool IsDeleted { get; set; }
         public DateTime? DeletedAt { get; set; }
+
+        public ICollection<Invoice> Invoices { get; set; } = new List<Invoice>();
     }
 }

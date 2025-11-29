@@ -317,12 +317,10 @@
 							}
 						],
 						"url": {
-							"raw": "https://localhost:7138/api/Invoices",
-							"protocol": "https",
+							"raw": "{{baseURL}}/api/Invoices",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "7138",
 							"path": [
 								"api",
 								"Invoices"
@@ -364,7 +362,7 @@
 		"bearer": [
 			{
 				"key": "token",
-				"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiQWRtaW4iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTc2NDM2MDUwNiwiaXNzIjoiRUNvbW1lcmNlQVBJIiwiYXVkIjoiRUNvbW1lcmNlQ2xpZW50cyJ9.4VtTV1u4gak0bza72NlIRY2bDb0EiyEdbLwFlLgORVQ",
+				"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiQWRtaW4iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTc2NDQxMDU5MywiaXNzIjoiRUNvbW1lcmNlQVBJIiwiYXVkIjoiRUNvbW1lcmNlQ2xpZW50cyJ9.CVfhS-mGCRegeAkoTlmtSUzI3RF6P815-9AYwNtg8pE",
 				"type": "string"
 			}
 		]

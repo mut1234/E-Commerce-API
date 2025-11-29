@@ -14,6 +14,8 @@ namespace E_Commerce_API.Models
         public int UserId { get; set; }
         public User User { get; set; }
         public decimal TotalAmount { get; set; }
-        public List<InvoiceDetail> Details { get;  set; }
+
+        public ICollection<InvoiceDetail> Details { get; set; } = new List<InvoiceDetail>();
+
     }
 }

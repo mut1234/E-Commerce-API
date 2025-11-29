@@ -43,7 +43,7 @@ namespace E_Commerce_API.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Invoices");
+                    b.ToTable("Invoices", (string)null);
                 });
 
             modelBuilder.Entity("E_Commerce_API.Models.InvoiceDetail", b =>
@@ -78,7 +78,7 @@ namespace E_Commerce_API.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("InvoiceDetails");
+                    b.ToTable("InvoiceDetails", (string)null);
                 });
 
             modelBuilder.Entity("E_Commerce_API.Models.Product", b =>
@@ -105,7 +105,7 @@ namespace E_Commerce_API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
 
                     b.HasData(
                         new
@@ -173,7 +173,7 @@ namespace E_Commerce_API.Migrations
                     b.HasIndex("Username")
                         .IsUnique();
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
 
                     b.HasData(
                         new

@@ -10,6 +10,8 @@ namespace E_Commerce_API.Models
         public string NameEn { get; set; }
         public decimal Price { get; set; }
         public bool IsDeleted { get; set; }
+        public ICollection<InvoiceDetail> InvoiceDetails { get; set; } = new List<InvoiceDetail>();
+
 
     }
 }
