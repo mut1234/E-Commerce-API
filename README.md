@@ -1,14 +1,9 @@
 📋 Project Overview
 Simple E-Commerce API built with ASP.NET Core featuring user authentication, product management, and invoice generation.
+
 🚀 Features
 
-✅ JWT Authentication
-✅ User Registration & Login
-✅ Role-based Authorization (Admin/Visitor)
-✅ Product CRUD with Soft Delete
-✅ Paginated Product Listing
-✅ Invoice Generation
-✅ Sql Server Database with Seeded Data
+✅ JWT Authentication , User Registration & Login,Role-based Authorization (Admin/Visitor), Product CRUD with Soft Delete,Paginated Product Listing, Invoice Generation,Sql Server Database with Seeded Data
 
 🛠️ Technologies
 
@@ -42,7 +37,11 @@ bashdotnet run
 Access Swagger UI
 Open browser and navigate to: https://localhost:7138 
 
+Note Postman exported path file :
+E-Commerce API/PostmanExportFile
+
 🔐 Default Credentials
+
 Admin Account
 Username: Admin
 Password: Admin@123
@@ -58,3 +57,4 @@ clean architecture ,
 repository patern + unit of work,
 meditor,
 auto mapper
+api versioning
